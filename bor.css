@@ -72,4 +72,29 @@
 .field .inner .corner-marker3 {
   left: -4px;
   bottom: -4px;
+}
+
+@media screen and (max-width: 940px) {
+  .field {
+    width: 705px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 764px) {
+  .field {
+    width: 500px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .field {
+    width: 430px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .field {
+    width: 370px;
+    height: 300px;
+  }
 }/*# sourceMappingURL=bor.css.map */
